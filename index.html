@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizIt</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <section id="highScore">High Scores</section>
+      <p id="timer"></p>
+    </header>
+    <div class="start-page">
+      <section class="welcome-message" id="welcomeMessage"></section>
+      <button class="start-game" id="start">Start Quiz</button>
+
+      <div class="a1" id="questions"></div>
+      <div class="a2" id="options"></div>
+      <div class="a3" id="score"></div>
+
+      <input
+        type="text"
+        class="player-name"
+        id="playerName"
+        placeholder="Enter your name"
+        disabled
+      />
+      <button class="submit-score" id="submitScore" disabled>
+        Submit score
+      </button>
+      <div class="leader-board" id="leaderboardList"></div>
+      <button class="play-again" id="playAgain">Play Again</button>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

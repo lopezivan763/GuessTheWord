@@ -1,0 +1,126 @@
+/* reset ---> */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+/* < ---------------------------------> */
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: bold;
+  color: blueviolet;
+  padding: 20px;
+}
+
+.start-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.welcome-message {
+  font-size: 60px;
+}
+
+.start-game {
+  font-size: 50px;
+  padding: 10px;
+  margin: 10px;
+  border: 0;
+  border-radius: 20px;
+  background-color: blueviolet;
+  color: azure;
+}
+
+.a1 {
+  font-size: 60px;
+}
+
+.a2 {
+  font-size: 50px;
+  color: azure;
+  display: flex;
+  list-style-type: none;
+}
+
+.a3 {
+  font-size: 50px;
+}
+.player-name {
+  margin: 10px;
+  padding: 10px;
+  font-size: 50px;
+}
+.submit-score {
+  font-size: 50px;
+  padding: 10px;
+  margin: 10px;
+  border: 0;
+  border-radius: 20px;
+  background-color: blueviolet;
+  color: azure;
+}
+
+.play-again {
+  font-size: 50px;
+  padding: 10px;
+  margin: 10px;
+  border: 0;
+  border-radius: 20px;
+  background-color: blueviolet;
+  color: azure;
+}
+
+.leader-board {
+  display: grid;
+  font-size: 50px;
+  padding: 10px;
+  margin: 10px;
+}
